@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6002DB4C2004B3A3001171F2 /* DCBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6002DB4B2004B3A3001171F2 /* DCBaseViewModel.m */; };
+		6002DB5C2004BD94001171F2 /* UIViewController+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6002DB5B2004BD94001171F2 /* UIViewController+Utils.m */; };
+		6002DB5F2004C2E7001171F2 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6002DB5D2004C2E7001171F2 /* UIView+Extension.m */; };
+		6002DB662004C53E001171F2 /* DCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6002DB652004C53E001171F2 /* DCHomeViewController.m */; };
+		6002DB692004CC27001171F2 /* RowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6002DB682004CC27001171F2 /* RowModel.m */; };
+		6002DB6C2004CC4B001171F2 /* DCHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6002DB6B2004CC4B001171F2 /* DCHomeCell.m */; };
+		6002DB6F2004CD64001171F2 /* DCHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6002DB6E2004CD64001171F2 /* DCHomeView.m */; };
+		6002DB722004CDA3001171F2 /* DCHomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6002DB712004CDA3001171F2 /* DCHomeViewModel.m */; };
 		60D025081FF33E0100C41209 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D025071FF33E0100C41209 /* AppDelegate.m */; };
-		60D0250B1FF33E0100C41209 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D0250A1FF33E0100C41209 /* ViewController.m */; };
 		60D0250E1FF33E0100C41209 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D0250C1FF33E0100C41209 /* Main.storyboard */; };
 		60D025101FF33E0100C41209 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60D0250F1FF33E0100C41209 /* Assets.xcassets */; };
 		60D025131FF33E0100C41209 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D025111FF33E0100C41209 /* LaunchScreen.storyboard */; };
 		60D025161FF33E0100C41209 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D025151FF33E0100C41209 /* main.m */; };
 		60D025201FF33E0200C41209 /* RAC_MVVMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D0251F1FF33E0200C41209 /* RAC_MVVMTests.m */; };
 		60D0252B1FF33E0200C41209 /* RAC_MVVMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D0252A1FF33E0200C41209 /* RAC_MVVMUITests.m */; };
+		60D0253F1FF33F9E00C41209 /* DCLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D0253E1FF33F9E00C41209 /* DCLoginView.m */; };
+		60D025421FF3428400C41209 /* DCLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D025411FF3428400C41209 /* DCLoginViewModel.m */; };
+		60D025451FF3438500C41209 /* DCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D025441FF3438500C41209 /* DCViewController.m */; };
+		98F1D843CF0EBA5F4BB0035F /* libPods-RAC-MVVM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBF6E5F0738DFA7997C033E /* libPods-RAC-MVVM.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +46,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17C4F3129891C40782533FDD /* Pods-RAC-MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC-MVVM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAC-MVVM/Pods-RAC-MVVM.debug.xcconfig"; sourceTree = "<group>"; };
+		6002DB4A2004B3A3001171F2 /* DCBaseViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCBaseViewModel.h; sourceTree = "<group>"; };
+		6002DB4B2004B3A3001171F2 /* DCBaseViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCBaseViewModel.m; sourceTree = "<group>"; };
+		6002DB582004B8E3001171F2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6002DB5A2004BD94001171F2 /* UIViewController+Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Utils.h"; sourceTree = "<group>"; };
+		6002DB5B2004BD94001171F2 /* UIViewController+Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Utils.m"; sourceTree = "<group>"; };
+		6002DB5D2004C2E7001171F2 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		6002DB5E2004C2E7001171F2 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		6002DB642004C53E001171F2 /* DCHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCHomeViewController.h; sourceTree = "<group>"; };
+		6002DB652004C53E001171F2 /* DCHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCHomeViewController.m; sourceTree = "<group>"; };
+		6002DB672004CC27001171F2 /* RowModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RowModel.h; sourceTree = "<group>"; };
+		6002DB682004CC27001171F2 /* RowModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RowModel.m; sourceTree = "<group>"; };
+		6002DB6A2004CC4B001171F2 /* DCHomeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCHomeCell.h; sourceTree = "<group>"; };
+		6002DB6B2004CC4B001171F2 /* DCHomeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCHomeCell.m; sourceTree = "<group>"; };
+		6002DB6D2004CD64001171F2 /* DCHomeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCHomeView.h; sourceTree = "<group>"; };
+		6002DB6E2004CD64001171F2 /* DCHomeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCHomeView.m; sourceTree = "<group>"; };
+		6002DB702004CDA3001171F2 /* DCHomeViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCHomeViewModel.h; sourceTree = "<group>"; };
+		6002DB712004CDA3001171F2 /* DCHomeViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCHomeViewModel.m; sourceTree = "<group>"; };
 		60D025031FF33E0100C41209 /* RAC-MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RAC-MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60D025061FF33E0100C41209 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		60D025071FF33E0100C41209 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		60D025091FF33E0100C41209 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		60D0250A1FF33E0100C41209 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		60D0250D1FF33E0100C41209 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		60D0250F1FF33E0100C41209 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60D025121FF33E0100C41209 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +78,14 @@
 		60D025261FF33E0200C41209 /* RAC-MVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RAC-MVVMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60D0252A1FF33E0200C41209 /* RAC_MVVMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAC_MVVMUITests.m; sourceTree = "<group>"; };
 		60D0252C1FF33E0200C41209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60D0253D1FF33F9E00C41209 /* DCLoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCLoginView.h; sourceTree = "<group>"; };
+		60D0253E1FF33F9E00C41209 /* DCLoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCLoginView.m; sourceTree = "<group>"; };
+		60D025401FF3428400C41209 /* DCLoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCLoginViewModel.h; sourceTree = "<group>"; };
+		60D025411FF3428400C41209 /* DCLoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCLoginViewModel.m; sourceTree = "<group>"; };
+		60D025431FF3438500C41209 /* DCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCViewController.h; sourceTree = "<group>"; };
+		60D025441FF3438500C41209 /* DCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCViewController.m; sourceTree = "<group>"; };
+		9EBF6E5F0738DFA7997C033E /* libPods-RAC-MVVM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RAC-MVVM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC72448ABBCD63F5E3CB1B7E /* Pods-RAC-MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC-MVVM.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAC-MVVM/Pods-RAC-MVVM.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98F1D843CF0EBA5F4BB0035F /* libPods-RAC-MVVM.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +114,103 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47ADD401C3042ED798A0814D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EBF6E5F0738DFA7997C033E /* libPods-RAC-MVVM.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6002DB452004B2DC001171F2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6002DB602004C52C001171F2 /* Controller */,
+				6002DB612004C52C001171F2 /* Model */,
+				6002DB632004C52C001171F2 /* View */,
+				6002DB622004C52C001171F2 /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		6002DB462004B2DC001171F2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				60D0253B1FF33F8900C41209 /* View */,
+				60D025391FF33F8900C41209 /* ViewControlle */,
+				60D025381FF33F8900C41209 /* ViewModel */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		6002DB482004B38B001171F2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				6002DB4A2004B3A3001171F2 /* DCBaseViewModel.h */,
+				6002DB4B2004B3A3001171F2 /* DCBaseViewModel.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		6002DB492004B38B001171F2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				6002DB592004BD57001171F2 /* Category */,
+				60D025061FF33E0100C41209 /* AppDelegate.h */,
+				60D025071FF33E0100C41209 /* AppDelegate.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		6002DB592004BD57001171F2 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				6002DB5E2004C2E7001171F2 /* UIView+Extension.h */,
+				6002DB5D2004C2E7001171F2 /* UIView+Extension.m */,
+				6002DB5A2004BD94001171F2 /* UIViewController+Utils.h */,
+				6002DB5B2004BD94001171F2 /* UIViewController+Utils.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		6002DB602004C52C001171F2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6002DB642004C53E001171F2 /* DCHomeViewController.h */,
+				6002DB652004C53E001171F2 /* DCHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6002DB612004C52C001171F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6002DB672004CC27001171F2 /* RowModel.h */,
+				6002DB682004CC27001171F2 /* RowModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6002DB622004C52C001171F2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6002DB702004CDA3001171F2 /* DCHomeViewModel.h */,
+				6002DB712004CDA3001171F2 /* DCHomeViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6002DB632004C52C001171F2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6002DB6A2004CC4B001171F2 /* DCHomeCell.h */,
+				6002DB6B2004CC4B001171F2 /* DCHomeCell.m */,
+				6002DB6D2004CD64001171F2 /* DCHomeView.h */,
+				6002DB6E2004CD64001171F2 /* DCHomeView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		60D024FA1FF33E0100C41209 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +218,8 @@
 				60D0251E1FF33E0200C41209 /* RAC-MVVMTests */,
 				60D025291FF33E0200C41209 /* RAC-MVVMUITests */,
 				60D025041FF33E0100C41209 /* Products */,
+				7F8F6AF7E6843C5D1A9420EF /* Pods */,
+				47ADD401C3042ED798A0814D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +236,16 @@
 		60D025051FF33E0100C41209 /* RAC-MVVM */ = {
 			isa = PBXGroup;
 			children = (
-				60D025061FF33E0100C41209 /* AppDelegate.h */,
-				60D025071FF33E0100C41209 /* AppDelegate.m */,
-				60D025091FF33E0100C41209 /* ViewController.h */,
-				60D0250A1FF33E0100C41209 /* ViewController.m */,
+				6002DB482004B38B001171F2 /* Base */,
+				6002DB492004B38B001171F2 /* Main */,
+				6002DB462004B2DC001171F2 /* Login */,
+				6002DB452004B2DC001171F2 /* Home */,
 				60D0250C1FF33E0100C41209 /* Main.storyboard */,
 				60D0250F1FF33E0100C41209 /* Assets.xcassets */,
 				60D025111FF33E0100C41209 /* LaunchScreen.storyboard */,
 				60D025141FF33E0100C41209 /* Info.plist */,
 				60D025151FF33E0100C41209 /* main.m */,
+				6002DB582004B8E3001171F2 /* PrefixHeader.pch */,
 			);
 			path = "RAC-MVVM";
 			sourceTree = "<group>";
@@ -132,6 +268,50 @@
 			path = "RAC-MVVMUITests";
 			sourceTree = "<group>";
 		};
+		60D025381FF33F8900C41209 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				60D025401FF3428400C41209 /* DCLoginViewModel.h */,
+				60D025411FF3428400C41209 /* DCLoginViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		60D025391FF33F8900C41209 /* ViewControlle */ = {
+			isa = PBXGroup;
+			children = (
+				60D0253A1FF33F8900C41209 /* Controller */,
+			);
+			path = ViewControlle;
+			sourceTree = "<group>";
+		};
+		60D0253A1FF33F8900C41209 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				60D025431FF3438500C41209 /* DCViewController.h */,
+				60D025441FF3438500C41209 /* DCViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		60D0253B1FF33F8900C41209 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				60D0253D1FF33F9E00C41209 /* DCLoginView.h */,
+				60D0253E1FF33F9E00C41209 /* DCLoginView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7F8F6AF7E6843C5D1A9420EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17C4F3129891C40782533FDD /* Pods-RAC-MVVM.debug.xcconfig */,
+				EC72448ABBCD63F5E3CB1B7E /* Pods-RAC-MVVM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +319,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60D0252F1FF33E0200C41209 /* Build configuration list for PBXNativeTarget "RAC-MVVM" */;
 			buildPhases = (
+				2E77570EB6997E3B8892696C /* [CP] Check Pods Manifest.lock */,
 				60D024FF1FF33E0100C41209 /* Sources */,
 				60D025001FF33E0100C41209 /* Frameworks */,
 				60D025011FF33E0100C41209 /* Resources */,
+				308FD752C9ED73293A67A614 /* [CP] Embed Pods Frameworks */,
+				6BC6EAE9B8C4F718D9DABC2D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,14 +443,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2E77570EB6997E3B8892696C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RAC-MVVM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		308FD752C9ED73293A67A614 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC-MVVM/Pods-RAC-MVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BC6EAE9B8C4F718D9DABC2D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RAC-MVVM/Pods-RAC-MVVM-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC-MVVM/Pods-RAC-MVVM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		60D024FF1FF33E0100C41209 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60D0250B1FF33E0100C41209 /* ViewController.m in Sources */,
+				6002DB5F2004C2E7001171F2 /* UIView+Extension.m in Sources */,
+				6002DB6C2004CC4B001171F2 /* DCHomeCell.m in Sources */,
+				6002DB662004C53E001171F2 /* DCHomeViewController.m in Sources */,
+				6002DB692004CC27001171F2 /* RowModel.m in Sources */,
+				6002DB6F2004CD64001171F2 /* DCHomeView.m in Sources */,
+				6002DB722004CDA3001171F2 /* DCHomeViewModel.m in Sources */,
+				6002DB4C2004B3A3001171F2 /* DCBaseViewModel.m in Sources */,
+				6002DB5C2004BD94001171F2 /* UIViewController+Utils.m in Sources */,
+				60D025421FF3428400C41209 /* DCLoginViewModel.m in Sources */,
+				60D025451FF3438500C41209 /* DCViewController.m in Sources */,
 				60D025161FF33E0100C41209 /* main.m in Sources */,
 				60D025081FF33E0100C41209 /* AppDelegate.m in Sources */,
+				60D0253F1FF33F9E00C41209 /* DCLoginView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,10 +675,12 @@
 		};
 		60D025301FF33E0200C41209 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17C4F3129891C40782533FDD /* Pods-RAC-MVVM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 54MPCG4PLY;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RAC-MVVM/PrefixHeader.pch";
 				INFOPLIST_FILE = "RAC-MVVM/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ulearning.cn.RAC-MVVM";
@@ -442,10 +691,12 @@
 		};
 		60D025311FF33E0200C41209 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC72448ABBCD63F5E3CB1B7E /* Pods-RAC-MVVM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 54MPCG4PLY;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RAC-MVVM/PrefixHeader.pch";
 				INFOPLIST_FILE = "RAC-MVVM/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ulearning.cn.RAC-MVVM";
